@@ -1,5 +1,4 @@
 ## Underlying topic exploration from 33 subreddits ... 
-
 ---
 
 ### Goals
