@@ -1,2 +1,9 @@
-# Study-Materials
-# Capstone2
+## Underlying topic exploration from 33 subreddits ... 
+
+---
+
+### Goals
+> The goals of this capstone were to explore the underlying topics expressed in thread posts across 33 different car subreddits. Topic Modeling was completed across all subreddits and used to demonstrate any patterns in the discussions occuring across each subreddit. The end goal was to determine if there was a quantifiable difference in the conversations happening between the differen subreddits since they are related (each subreddit was a car manufacturer subreddit).
+
+### Data
+Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)), subreddit thread comments were scraped, and topic models were created to determine the general underlying topics being discussed by the community posting in that subreddit. 
