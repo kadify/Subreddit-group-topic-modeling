@@ -6,3 +6,9 @@
 
 ### Data
 Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)), subreddit thread comments were scraped, and topic models were created to determine the general underlying topics being discussed by the community posting in that subreddit. 
+
+
+#### Next steps:
+1. Find generalized topics for each subreddit (iterating multiple times to make sure the topics are in fact representative of the documents). 
+2. Compare topics between the subreddits. Are they the same topics? Is one topic obviously discussing different things?
+3. Clean up code and make interesting plots/graphics.
