@@ -10,7 +10,7 @@ Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/
 ### Steps taken so far
 * Scrape data from 33 different car manufacturer subreddits
 * Use Stemming, Lemmatization, and remove Stopwords
-* Use Topic Modeling to get general consensus of topics being discussed using TFIDF NMF (Non-Negative Matrix Decomposition), TFIDF Clustering, and LDA (Latent Dirichlet Allocation)
+* Use Topic Modeling to get general consensus of topics being discussed using TFIDF NMF (Non-Negative Matrix Factorization), TFIDF Clustering, and LDA (Latent Dirichlet Allocation)
   #### To Do:
   > * Attempt NMF reconstruction error for number of topics (see which is best)
   > * Finalize topic modeling functions, put into class
