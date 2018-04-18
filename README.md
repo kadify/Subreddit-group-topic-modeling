@@ -13,10 +13,11 @@ Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/
 * Use Topic Modeling to get general consensus of topics being discussed using TFIDF NMF (Non-Negative Matrix Factorization), TFIDF Clustering, and LDA (Latent Dirichlet Allocation)
   #### To Do:
   > * Attempt NMF reconstruction error for number of topics (see which is best)
+  >  * Umass Topic coherence measurement for NMF as well
   > * Finalize topic modeling functions, put into class
   > * Apply function to all subreddit corpora
   > * Determine metric to compare topics between different subreddits
-  > * *Perhaps use to make predictive model to determine what topics someone is posting about from unseen comments?*
+  > * *Perhaps use to make predictive model to determine what topics someone is posting about from unseen comments?* **Probably not**
   
 
 
