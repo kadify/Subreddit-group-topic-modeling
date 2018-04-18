@@ -16,6 +16,7 @@ Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/
   > * Finalize topic modeling functions, put into class
   > * Apply function to all subreddit corpora
   > * Determine metric to compare topics between different subreddits
+  > * Perhaps use to make predictive model to determine what topics someone is posting about from unseen comments?
   
 
 
