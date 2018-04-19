@@ -12,7 +12,7 @@ Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/
 * Use Stemming, Lemmatization, and remove Stopwords
 * Use Topic Modeling to get general consensus of topics being discussed using TFIDF NMF (Non-Negative Matrix Factorization), TFIDF Clustering, and LDA (Latent Dirichlet Allocation)
   #### To Do:
-  > * Attempt NMF reconstruction error for number of topics (see which is best)
+  > * <strike>Attempt NMF reconstruction error for number of topics (see which is best)</strike>
   >  * Umass Topic coherence measurement for NMF as well
   > * Finalize topic modeling functions, put into class
   > * Apply function to all subreddit corpora
