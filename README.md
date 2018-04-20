@@ -9,7 +9,8 @@
 ___
 ### Table of Contents:
 > [Data](#data)<br>
-> Hello
+> [Models](#models)<br>
+> [Results](#results)
 
 
 *[Top](#underlying-topic-exploration-from-33-subreddits)*
@@ -56,8 +57,17 @@ The following subreddits were compared:
 
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
 ___
+## Models
 
 
+                                                                                                              *[Top](#underlying-topic-exploration-from-33-subreddits)*
+___
+## Results
+
+....
+
+
+## Analysis 
 
 ### Steps taken so far
 * Scrape data from 33 different car manufacturer subreddits
