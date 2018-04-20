@@ -1,6 +1,11 @@
-## Underlying topic exploration from 33 subreddits ... 
+## Underlying topic exploration from 33 subreddits  
 ---
 
+### Question
+
+Was there a noticable difference between the general discussions occuring across different car brand subreddits?
+  If there was, is there a way to visualize these differences?
+  
 ### Goals
 > The goals of this capstone were to explore the underlying topics expressed in thread posts across 33 different car subreddits. Topic Modeling was completed across all subreddits and used to demonstrate any patterns in the discussions occuring across each subreddit. The end goal was to determine if there was a quantifiable difference in the conversations happening between the differen subreddits since they are related (each subreddit was a car manufacturer subreddit).
 
