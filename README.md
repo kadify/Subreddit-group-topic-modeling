@@ -90,6 +90,7 @@ Two methods to determine the optimal number of user-defined topics is to measure
 | **Extrinisic UCI**  | ![](images/uci.png) |
 | ------------- | ------------- |
 | **Intrinsic UMass**  | ![](images/umass.png)  |
+
 The UMass score relates the coherence within a topic between words. Therefore a smaller number equates to a more coherent topic clsutering.
 
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
