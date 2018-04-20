@@ -67,6 +67,16 @@ A TF-IDF matrix was created for each subreddit that compared the term frequency 
 **Output:** LDA outputs a probability matrix of words vs topics. From this, topic interpretation can be performed by looking at the most probable words for each topic. Because the output is a probability matrix, which is a representation of soft clustering, LDA is typically better at topic modeling because it can better represent actual topics in documents as a single document may be about multiple topics.
 
 
+#### NMF
+**Conceptualization:** Non-Negative Matrix Factorization (NMF) can be used for dimensionality reduction by approximating the values of a high-dimensional dataset. *Reconstruction error* is computed via the ***Frobenius norm*** and minimized. Conceptually the *Frobenius norm* is similar to the *Euclidean Distance*, generalized for matrices rather than vectors. 
+
+
+**Output:** NMF accomplishes dimensionality reduction by decomposing high dimensional data. This is done by creating a user-defined number of features, then two lower rank matrices are assembled that when multiplied *approximate* the original higher dimension data. NMF uses an iterative method to reduce reconstruction error.
+
+
+
+
+
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
 ___
 
