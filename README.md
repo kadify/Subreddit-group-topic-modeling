@@ -10,7 +10,7 @@
 
 
 *[Top](#underlying-topic-exploration-from-33-subreddits)*
-~~~
+___
 
 ### Data
 Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)), subreddit thread comments were scraped, resulting in approximately ~XXXXXX comments. Topic models were created to determine the general underlying topics being discussed by the community posting in each subreddit.
