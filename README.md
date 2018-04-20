@@ -8,7 +8,7 @@
 > The goals of this capstone were to explore the underlying topics expressed in thread posts across 33 different car subreddits. Topic Modeling was completed across all subreddits and used to visualize any patterns in the discussions occuring across each subreddit. The end goal was to determine if there was an apparent difference in the conversations happening between the different subreddits.
 ___
 ### Table of Contents:
-|-[Data](#data)<br>
+𝄃‖º⍿[Data](#data)<br>
 |-Hello
 
 ﹉︴﹊｜⫰⫯﹎﹍﹏﹌﹋
