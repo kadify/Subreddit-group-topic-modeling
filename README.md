@@ -2,14 +2,30 @@
 ---
 ### Question
 
-Was there a noticable difference between the general discussions occuring across different car brand subreddits?
-  If there was, is there a way to visualize these differences?
+*Is there a noticable difference between the general discussions occuring across different car brand subreddits?*
+  
   
 ### Goals
-> The goals of this capstone were to explore the underlying topics expressed in thread posts across 33 different car subreddits. Topic Modeling was completed across all subreddits and used to demonstrate any patterns in the discussions occuring across each subreddit. The end goal was to determine if there was a quantifiable difference in the conversations happening between the differen subreddits since they are related (each subreddit was a car manufacturer subreddit).
+> The goals of this capstone were to explore the underlying topics expressed in thread posts across 33 different car subreddits. Topic Modeling was completed across all subreddits and used to visualize any patterns in the discussions occuring across each subreddit. The end goal was to determine if there was an apparent difference in the conversations happening between the different subreddits.
 
 ### Data
 Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)), subreddit thread comments were scraped, and topic models were created to determine the general underlying topics being discussed by the community posting in each subreddit.
+
+The following subreddits were compared:
+* [r/BMW](https://www.reddit.com/r/BMW/)
+* [r/Audi](https://www.reddit.com/r/Audi/)
+* [r/Kia](https://www.reddit.com/r/Kia/)
+* [r/Mercedes](https://www.reddit.com/r/Mercedes/)
+* [r/Porsche](https://www.reddit.com/r/Porsche/)
+* [r/Hyundai](https://www.reddit.com/r/Hyundai/)
+* [r/Ford](https://www.reddit.com/r/Ford/)
+* [r/Kia](https://www.reddit.com/r/Kia/)
+* [r/Chevy](https://www.reddit.com/r/Chevy/)
+* [r/Honda](https://www.reddit.com/r/Honda/)
+* [r/Acura](https://www.reddit.com/r/Acura/)
+* [r/Toyota](https://www.reddit.com/r/Toyota/)
+
+
 
 ### Steps taken so far
 * Scrape data from 33 different car manufacturer subreddits
