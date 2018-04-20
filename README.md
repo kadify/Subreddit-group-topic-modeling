@@ -65,6 +65,9 @@ A TF-IDF matrix was created for each subreddit that compared the term frequency 
 **Conceptualization:** Latent Dirichlet Allocation (LDA) models is a probablistic bag of words model. When training an LDA models, words in a corpus are assigned to one of *k* topics, randomly. Then, via ***Bayes' Rule***, computes the probabilities of each word being in each topic assuming all of the other words are in the correct topic, then updates the topic that word belongs in. 
 
 **Output:** LDA outputs a probability matrix of words vs topics. From this, topic interpretation can be performed by looking at the most probable words for each topic. Because the output is a probability matrix, which is a representation of soft clustering, LDA is typically better at topic modeling because it can better represent actual topics in documents as a single document may be about multiple topics.
+
+
+[link](test.html)
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
 ___
 
