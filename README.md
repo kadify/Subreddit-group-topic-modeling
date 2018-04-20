@@ -123,6 +123,7 @@ ___
 |**Plot of BMW Intrinsic UMass Coherence Scores against number of topics.**<br><br> As the number of topics changes, coherence scores can be used to describe how much coherence the words contained within each topic have. A smaller negative number indicates a larger coherence while a larger negative number indicates a more disordered grouping of words.|
 
 >``` Looking at the above results, and for interpretability, selected 10 topics for all subreddits. ```
+
 ### LDA Topic Model Visualizations
 
 | | | | | |
