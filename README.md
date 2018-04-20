@@ -71,11 +71,6 @@ ___
 ## Models
 Several techniques were utilized to best model underlying topics being discussed in the subreddits.
 
-#### LDA
-**Conceptualization:** Latent Dirichlet Allocation (LDA) models is a probablistic bag of words model. When training an LDA models, words in a corpus are assigned to one of *k* topics, randomly. Then, via ***Bayes' Rule***, computes the probabilities of each word being in each topic assuming all of the other words are in the correct topic, then updates the topic that word belongs in.
-
-**Output:** LDA outputs a probability matrix of words vs topics. From this, topic interpretation can be performed by looking at the most probable words for each topic. Because the output is a probability matrix, which is a representation of soft clustering, LDA is typically better at topic modeling because it can better represent actual topics in documents as a single document may be about multiple topics.
-
 
 #### NMF
 **Conceptualization:** Non-Negative Matrix Factorization (NMF) can be used for dimensionality reduction by approximating the values of a high-dimensional dataset. *Reconstruction error* is computed via the ***Frobenius norm*** and minimized. Conceptually the *Frobenius norm* is similar to the *Euclidean Distance*, generalized for matrices rather than vectors.
@@ -92,6 +87,13 @@ Two methods to determine the optimal number of user-defined topics is to measure
 | **Intrinsic UMass**  | ![](images/umass.png)  |
 
 The UMass score relates the coherence within a topic between words. Therefore a smaller number equates to a more coherent topic clsutering.
+
+
+#### LDA
+**Conceptualization:** Latent Dirichlet Allocation (LDA) models is a probablistic bag of words model. When training an LDA models, words in a corpus are assigned to one of *k* topics, randomly. Then, via ***Bayes' Rule***, computes the probabilities of each word being in each topic assuming all of the other words are in the correct topic, then updates the topic that word belongs in.
+
+**Output:** LDA outputs a probability matrix of words vs topics. From this, topic interpretation can be performed by looking at the most probable words for each topic. Because the output is a probability matrix, which is a representation of soft clustering, LDA is typically better at topic modeling because it can better represent actual topics in documents as a single document may be about multiple topics.
+
 
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
 ___
