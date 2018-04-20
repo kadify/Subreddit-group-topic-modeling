@@ -12,6 +12,9 @@
 Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)), subreddit thread comments were scraped, and topic models were created to determine the general underlying topics being discussed by the community posting in each subreddit.
 
 The following subreddits were compared:
+
+<div class="begin-examples"></div>
+
 * [r/BMW](https://www.reddit.com/r/BMW/)
 * [r/Audi](https://www.reddit.com/r/Audi/)
 * [r/Kia](https://www.reddit.com/r/Kia/)
@@ -46,8 +49,13 @@ The following subreddits were compared:
 * [r/RangeRover](https://www.reddit.com/r/RangeRover/)
 * [r/Jaguar](https://www.reddit.com/r/Jaguar/)
 
+<div class="end-examples"></div>
 
-
+article .begin-examples ~ h3,
+article .begin-examples ~ p,
+article .begin-examples ~ .highlight {
+    width: 50%;
+}
 
 ### Steps taken so far
 * Scrape data from 33 different car manufacturer subreddits
