@@ -128,7 +128,7 @@ ___
 
 
 
-Generalizing what the topics seemed to be based on what words were in that topic showed that for the most part there do seem to be some slight trends in the discussions on the different threads. In more sporting or luxury focused vehicle subreddits, often times there were clear threads with "pic thread" vernacular. This is to say, a lot of slang, compliments, pic swps/requests/mentioning of particular exterior aesthetic features, etc.
+Generalizing what the topics seemed to be based on what words were in that topic showed that for the most part there do seem to be some slight trends in the discussions on the different threads. In more sporting or luxury focused vehicle subreddits, often times there were clear threads with "pic thread" vernacular. This is to say, a lot of slang, compliments, pic requests/mentioning of particular exterior aesthetic features, etc.
 
 A few brands had unique discussions. For example, in the kia subreddit, there was a topic that seemed to be focused entirely on interior discussions. In the Tesla subreddit, there were obviously differing conversations because the cars are electric and therefore there were topics that focused on batteries and charging, ordering the cars (since there are no dealerships), and autopilot. Among the supercar subreddits, there were a lot of comparison threads however the topics didn't seem to be fully separated. Certain descriptive terms were frequently in multiple topics. More iterations would help fully extract the true topics for these sorts of subreddits.
 
