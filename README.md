@@ -62,14 +62,9 @@ ___
 A TF-IDF matrix was created for each subreddit that compared the term frequency for across each of the comments out of the collective whole from a particular subreddit. 
 
 #### LDA
-Latent Dirichlet Allocation (LDA) models is a probablistic bag of words model. When training an LDA models, words in a corpus are assigned to one *k* topics, randomly. Then the model computes 2 probabilities:<br>
-> 1. the proportion of words in a document within the corpus that are that topic it just assigned
-> 2. the proportion of the total number of times a particular word is assigned to a specific topic across all documents
+**Conceptualization:** Latent Dirichlet Allocation (LDA) models is a probablistic bag of words model. When training an LDA models, words in a corpus are assigned to one of *k* topics, randomly. Then, via ***Bayes' Rule***, computes the probabilities of each word being in each topic assuming all of the other words are in the correct topic, then updates the topic that word belongs in. 
 
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;E}{\partial&space;w}&space;=&space;\frac{\partial&space;E}{\partial&space;\phi}&space;\frac{\partial&space;\phi}{\partial&space;w}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;E}{\partial&space;w}&space;=&space;\frac{\partial&space;E}{\partial&space;\phi}&space;\frac{\partial&space;\phi}{\partial&space;w}" title="\frac{\partial E}{\partial w} = \frac{\partial E}{\partial \phi} \frac{\partial \phi}{\partial w}" /></a>
-
-And for each topic t, compute two things: 1) p(topic t | document d) = the proportion of words in document d that are currently assigned to topic t, and 2) p(word w | topic t) = the proportion of assignments to topic t over all documents that come from this word w. Reassign w a new topic, where we choose topic t with probability p(topic t | document d) * p(word w | topic t) (according to our generative model, this is essentially the probability that topic t generated word w, so it makes sense that we resample the current word’s topic with this probability). (Also, I’m glossing over a couple of things here, in particular the use of priors/pseudocounts in these probabilities.)
+**Output:** LDA outputs a probability matrix of words vs topics. From this, topic interpretation can be performed by looking at the most probable words for each topic. Because the output is a probability matrix, which is a representation of soft clustering, LDA is typically better at topic modeling because it can better represent actual topics in documents as a single document may be about multiple topics.
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
 ___
 
