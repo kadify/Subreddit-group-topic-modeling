@@ -22,8 +22,30 @@ The following subreddits were compared:
 * [r/Kia](https://www.reddit.com/r/Kia/)
 * [r/Chevy](https://www.reddit.com/r/Chevy/)
 * [r/Honda(& Acura)](https://www.reddit.com/r/Honda/)
-
 * [r/Toyota](https://www.reddit.com/r/Toyota/)
+* [r/TeslaMotors](https://www.reddit.com/r/TeslaMotors/)
+* [r/Lexus](https://www.reddit.com/r/Lexus/)
+* [r/Volvo](https://www.reddit.com/r/Volvo/)
+* [r/Jeep](https://www.reddit.com/r/Jeep/)
+* [r/Dodge](https://www.reddit.com/r/Dodge/)
+* [r/Chrysler](https://www.reddit.com/r/Chrysler/)
+* [r/Nissan](https://www.reddit.com/r/Nissan/)
+* [r/Infiniti](https://www.reddit.com/r/Infiniti/)
+* [r/Fiat](https://www.reddit.com/r/Fiat/)
+* [r/Lamborghini](https://www.reddit.com/r/Lamborghini/)
+* [r/Ferrari](https://www.reddit.com/r/Ferrari/)
+* [r/AstonMartin](https://www.reddit.com/r/AstonMartin/)
+* [r/Maserati](https://www.reddit.com/r/Maserati/)
+* [r/Lotus](https://www.reddit.com/r/Lotus/)
+* [r/Mitsubishi](https://www.reddit.com/r/Mitsubishi/)
+* [r/Mclaren](https://www.reddit.com/r/Mclaren/)
+* [r/GMC](https://www.reddit.com/r/GMC/)
+* [r/Cadillac](https://www.reddit.com/r/Cadillac/)
+* [r/Buick](https://www.reddit.com/r/Buick/)
+* [r/Mazda](https://www.reddit.com/r/Mazda/)
+* [r/RangeRover](https://www.reddit.com/r/RangeRover/)
+* [r/Jaguar](https://www.reddit.com/r/Jaguar/)
+
 
 
 
