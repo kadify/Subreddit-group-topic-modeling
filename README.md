@@ -91,7 +91,7 @@ Two methods to determine the optimal number of user-defined topics is to measure
 | ------------- | ------------- |
 | **Intrinsic UMass**  | ![](images/umass.png)  |
 The UMass score relates the coherence within a topic between words. Therefore a smaller number equates to a more coherent topic clsutering.
-[link](https://rawgit.com/kadify/Capstone2/master/test.html)
+
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
 ___
 
