@@ -98,11 +98,11 @@ ___
 ## Results
 
 
-| ![Reconstruction Error](images/BMW_errors.png) |
+| ![](images/BMW_errors.png) |
 | ------------- |
 |**Plot of BMW Reconstruction errors between NMF approximation matrix multiplication and original TDIDF matrix against number of topics.**<br><br> As the number of topics increases, the reconstruction error lowers, indicating that with higher numbers of topics, the approximation becomes better.|
 
-| ![NMF Coherance Score](images/BMW_coherance.png) |
+| ![(images/BMW_coherance.png) |
 | ------------- |
 |**Plot of BMW Intrinsic UMass Coherence Scores against number of topics.**<br><br> As the number of topics changes, coherence scores can be used to describe how much coherence the words contained within each topic have. A smaller negative number indicates a larger coherence while a larger negative number indicates a more disordered grouping of words.|
 
