@@ -1,6 +1,5 @@
 ## Underlying topic exploration from 33 subreddits  
 ---
-
 ### Question
 
 Was there a noticable difference between the general discussions occuring across different car brand subreddits?
