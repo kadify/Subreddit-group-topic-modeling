@@ -13,7 +13,23 @@ Using a Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/
 
 The following subreddits were compared:
 
-<div class="begin-examples"></div>
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+    <div style="display: inline-block;">
+        <h2>Good</h2>
+        <pre><code class="language-c">int foo (void) 
+{
+    int i;
+}
+</code></pre>
+    </div>
+    <div style="display: inline-block;">
+        <h2>Bad</h2>
+        <pre><code class="language-c">int foo (void) {
+    int i;
+}
+</code></pre>
+    </div>
+</div>
 
 * [r/BMW](https://www.reddit.com/r/BMW/)
 * [r/Audi](https://www.reddit.com/r/Audi/)
@@ -49,13 +65,7 @@ The following subreddits were compared:
 * [r/RangeRover](https://www.reddit.com/r/RangeRover/)
 * [r/Jaguar](https://www.reddit.com/r/Jaguar/)
 
-<div class="end-examples"></div>
 
-article .begin-examples ~ h3,
-article .begin-examples ~ p,
-article .begin-examples ~ .highlight {
-    width: 50%;
-}
 
 ### Steps taken so far
 * Scrape data from 33 different car manufacturer subreddits
