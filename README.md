@@ -15,14 +15,14 @@ The following subreddits were compared:
 * [r/BMW](https://www.reddit.com/r/BMW/)
 * [r/Audi](https://www.reddit.com/r/Audi/)
 * [r/Kia](https://www.reddit.com/r/Kia/)
-* [r/Mercedes](https://www.reddit.com/r/Mercedes/)
+* [r/Mercedes](https://www.reddit.com/r/Mercedes_Benz/)
 * [r/Porsche](https://www.reddit.com/r/Porsche/)
 * [r/Hyundai](https://www.reddit.com/r/Hyundai/)
 * [r/Ford](https://www.reddit.com/r/Ford/)
 * [r/Kia](https://www.reddit.com/r/Kia/)
 * [r/Chevy](https://www.reddit.com/r/Chevy/)
-* [r/Honda](https://www.reddit.com/r/Honda/)
-* [r/Acura](https://www.reddit.com/r/Acura/)
+* [r/Honda(& Acura)](https://www.reddit.com/r/Honda/)
+
 * [r/Toyota](https://www.reddit.com/r/Toyota/)
 
 
