@@ -3,12 +3,7 @@
 ### Question
 
 *Is there a noticable difference between the general discussions occuring across different car brand subreddits?*
-<<<<<<< HEAD
 
-=======
-  
-[link](https://rawgit.com/kadify/Capstone2/master/test.html)
->>>>>>> d184ec8d4178733c1d1647da55045ebc6d9e713a
 
 ### Goals
 > The goals of this capstone were to explore the underlying topics expressed in thread posts across 33 different car subreddits. Topic Modeling was completed across all subreddits and used to visualize any patterns in the discussions occuring across each subreddit. The end goal was to try to deduce if there was an apparent difference in the conversations happening between the different subreddits.
@@ -83,16 +78,11 @@ Several techniques were utilized to best model underlying topics being discussed
 
 
 #### NMF
-<<<<<<< HEAD
 **Conceptualization:** Non-Negative Matrix Factorization (NMF) can be used for dimensionality reduction by approximating the values of a high-dimensional dataset. *Reconstruction error* is computed via the ***Frobenius norm*** and minimized. Conceptually the *Frobenius norm* is similar to the *Euclidean Distance*, generalized for matrices rather than vectors.
-=======
-**Conceptualization:** Non-Negative Matrix Factorization (NMF) can be used for dimensionality reduction by approximating the values of a high-dimensional dataset. *Reconstruction error* is computed via the ***Frobenius norm*** and minimized. Conceptually the *Frobenius norm* is similar to the *Euclidean Distance*, generalized for matrices rather than vectors. 
->>>>>>> d184ec8d4178733c1d1647da55045ebc6d9e713a
 
 
 **Output:** NMF accomplishes dimensionality reduction by decomposing high dimensional data. This is done by creating a user-defined number of features, then two lower rank matrices are assembled that when multiplied *approximate* the original higher dimension data. NMF uses an iterative method to reduce reconstruction error.
 
-<<<<<<< HEAD
 ![](images/nmf.png)
 
 Two methods to determine the optimal number of user-defined topics is to measure the reconstruction error and the Topic coherence. The Topic coherence score can be measure either by an extrinsic UCI measurement or an intrinsic UMass measurement.
@@ -102,12 +92,6 @@ Two methods to determine the optimal number of user-defined topics is to measure
 | **Intrinsic UMass**  | ![](images/umass.png)  |
 The UMass score relates the coherence within a topic between words. Therefore a smaller number equates to a more coherent topic clsutering.
 [link](https://rawgit.com/kadify/Capstone2/master/test.html)
-=======
-
-
-
-
->>>>>>> d184ec8d4178733c1d1647da55045ebc6d9e713a
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
 ___
 
@@ -123,7 +107,6 @@ ___
 |**Plot of BMW Intrinsic UMass Coherence Scores against number of topics.**<br><br> As the number of topics changes, coherence scores can be used to describe how much coherence the words contained within each topic have. A smaller negative number indicates a larger coherence while a larger negative number indicates a more disordered grouping of words.|
 
 >``` Looking at the above results, and for interpretability, selected 10 topics for all subreddits. ```
-
 ### LDA Topic Model Visualizations
 
 | | | | | |
