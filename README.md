@@ -145,12 +145,12 @@ ___
 ___
 ## References
 ```
-1. McCallum, Andrew Kachites.  "MALLET: A Machine Learning for Language Toolkit."
-    http://mallet.cs.umass.edu. 2002.
-2. Pleplé , Quentin. Topic Coherence To Evaluate Topic Models, May 2013,
-    qpleple.com/topic-coherence-to-evaluate-topic-models/.
-3. “Complete Guide to Topic Modeling.” NLP-FOR-HACKERS, 6 Feb. 2018,
+2. “Complete Guide to Topic Modeling.” NLP-FOR-HACKERS, 6 Feb. 2018,
     nlpforhackers.io/topic-modeling/.
+2. McCallum, Andrew Kachites.  "MALLET: A Machine Learning for Language Toolkit."
+    http://mallet.cs.umass.edu. 2002.
+3. Pleplé , Quentin. Topic Coherence To Evaluate Topic Models, May 2013,
+    qpleple.com/topic-coherence-to-evaluate-topic-models/.
 4. Stern, Jordan. “Belief_Revision_on_Twitter.” GitHub,
     github.com/jordanstern1/Belief_Revision_on_Twitter.
 ```
