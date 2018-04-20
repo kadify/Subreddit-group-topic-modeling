@@ -9,6 +9,7 @@
 ___
 ### Table of Contents:
 |-[Data](#data)
+
 |-Hello
 
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
