@@ -67,12 +67,7 @@ Latent Dirichlet Allocation (LDA) models is a probablistic bag of words model. W
 > 2. the proportion of the total number of times a particular word is assigned to a specific topic across all documents
 
 
-\begin{align*}
-\frac{\partial E}{\partial w} = \frac{\partial E}{\partial \phi} \frac{\partial \phi}{\partial w}
-\end{align*}
-
-$\frac{\partial E}{\partial w} = \frac{\partial E}{\partial \phi} \frac{\partial \phi}{\partial w}$
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;E}{\partial&space;w}&space;=&space;\frac{\partial&space;E}{\partial&space;\phi}&space;\frac{\partial&space;\phi}{\partial&space;w}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;E}{\partial&space;w}&space;=&space;\frac{\partial&space;E}{\partial&space;\phi}&space;\frac{\partial&space;\phi}{\partial&space;w}" title="\frac{\partial E}{\partial w} = \frac{\partial E}{\partial \phi} \frac{\partial \phi}{\partial w}" /></a>
 
 And for each topic t, compute two things: 1) p(topic t | document d) = the proportion of words in document d that are currently assigned to topic t, and 2) p(word w | topic t) = the proportion of assignments to topic t over all documents that come from this word w. Reassign w a new topic, where we choose topic t with probability p(topic t | document d) * p(word w | topic t) (according to our generative model, this is essentially the probability that topic t generated word w, so it makes sense that we resample the current word’s topic with this probability). (Also, I’m glossing over a couple of things here, in particular the use of priors/pseudocounts in these probabilities.)
                                                                                                               *[Top](#underlying-topic-exploration-from-33-subreddits)*
