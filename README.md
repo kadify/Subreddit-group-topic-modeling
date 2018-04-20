@@ -1,4 +1,4 @@
-## Underlying topic exploration from 33 subreddits  
+## Underlying topic exploration from 33 subreddits
 ---
 ### Question
 
