@@ -10,7 +10,8 @@ ___
 ### Table of Contents:
 > [Data](#data)<br>
 > [Models](#models)<br>
-> [Results](#results)
+> [Results](#results)<br>
+> [Analysis](#analysis)
 
 
 *[Top](#underlying-topic-exploration-from-33-subreddits)*
