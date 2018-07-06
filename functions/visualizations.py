@@ -69,7 +69,9 @@ class visualizations(object):
         return coherence_score
 
     def LDA(self, topics, htmlname):
-
+        '''
+        Saves Latent Dirichlet Allocation model visual in html format
+        '''
         topics = topics
 
         vectorizer = CountVectorizer(min_df=5, max_df=0.9,
@@ -86,8 +88,9 @@ class visualizations(object):
         pyLDAvis.save_html(panel, htmlname)
 
     def topic_error(self, solver='mu', max_iter=100):
-
-
+        '''
+        Returns NMF Reconstruction Error vs. Number of Topics subplot for the number of topics specified
+        '''
         vector = TfidfVectorizer(strip_accents='ascii',tokenizer=self._tweet_tokenizer,
                               stop_words=self.stop_words, max_df=0.8, max_features=5000,
                               ngram_range=(1,1))
@@ -108,6 +111,9 @@ class visualizations(object):
         plt.scatter(self.num_topics, reconstruction_errs)
 
     def word_coherence(self, max_iter=100, solver='mu', M=5):
+        '''
+        Returns subplot of UMass Coherence Score for each of the number of topics specified
+        '''
 
         vector = TfidfVectorizer(strip_accents='ascii',
                               stop_words=self.stop_words, max_df=0.8, max_features=5000,

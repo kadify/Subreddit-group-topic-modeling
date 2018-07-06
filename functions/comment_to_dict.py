@@ -8,22 +8,8 @@ from textblob import TextBlob
 
 
 
-# Function to return NMFs
-#
-#
-# Funtion to do Word2vec
-#
-#
-# Function to do LDA
-#
-#
-# Function to tie them all together and get results
-
 
 class comments_to_dict(object):
-    '''
-        Blah
-    '''
 
     def __init__(self, redditID, subreddits, limit=2, verbose=True):
         self.redditID = redditID
@@ -42,6 +28,10 @@ class comments_to_dict(object):
         return self.subreddit_dict
 
     def _getreplies(self, comment):
+        '''
+        Retrieves replies to specified comment on reddit
+        '''
+
         self.commentsList.append(comment)
         if not hasattr(comment, "replies"):
             replies = comment.comments()
@@ -52,6 +42,9 @@ class comments_to_dict(object):
             self._getreplies(child)
 
     def getAll(self, commentId):
+        '''
+        Retrieves and creates list of all replies from subreddit up to a specified limit
+        '''
         submission = self.redditID.submission(commentId)
         submission.comments.replace_more(limit=self.limit)
         comments = submission.comments[:]
@@ -62,6 +55,9 @@ class comments_to_dict(object):
 
 
     def tabler(self, _id):
+        '''
+        Returns dictionary of replies for specified comment
+        '''
         comments = {}
         for ind, i in enumerate(self.res):
             if i.parent().id == _id:
@@ -69,6 +65,9 @@ class comments_to_dict(object):
         return comments
 
     def PRAW_tree(self, commentID):
+        '''
+        Returns dictionary list of replies for specified comment
+        '''
         reply_list = {}
         for i in self.res:
             comments = self.tabler(i.id)
@@ -76,6 +75,10 @@ class comments_to_dict(object):
         return reply_list
 
     def compiler(self, sub):
+        '''
+        Returns complete dictionary of comments with replies key being main comment and
+        value being replies to that comment
+        '''
         subreddit = self.redditID.subreddit(sub)
         dict_total = {}
         for commentID in subreddit.hot(limit=self.limit):
@@ -84,12 +87,4 @@ class comments_to_dict(object):
             dict_total.update(reply_list)
         return dict_total
 
-    # def sentiment(com_dict):
-    #     polarity_array = np.array([])
-    #     for k,v in com_dict.items():
-    #         a = k.body
-    #         b = TextBlob(a)
-    #         c = b.sentiment.polarity
-    #         polarity_array = np.append(polarity_array, c)
-    #     d = np.sum(polarity_array/len(polarity_array))
-    #     return d
+    
